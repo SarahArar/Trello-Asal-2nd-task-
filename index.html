@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="Trello.com" description="Best Place to organize your day perfectly SIGN UP for more features!" />
+    <meta name="viewport" content="width-device-wisth, initial-scale-1.0">
+    <title>Trello</title>
+
+    <script src="https://use.fontawesome.com/d0d2a29d6a.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="mouse left three" style="height:32px;width:32px;border-radius: 3px">
+        <i class="fa fa-th mouse" style="border-radius:1px;padding:4px 3px;font-weight:50;"></i>
+    </div>
+
+    <div class="mouse left three" style="height:32px;width:32px;border-radius: 3px">
+        <i class="fa fa-home mouse" style="border-radius:3px;padding:4px 3px;font-weight: lighter;"></i>
+    </div>
+    <div class=" mouse left three " style="width:87.28;height:32px;border-style:none;border-radius: 3px;">
+        <i class="fa fa-columns " aria-hidden="true" style="padding:4px 3px;border-style:none;font-weight:bold;"></i>
+        <p style="padding-bottom:10px; font: normal 14px bolder " time new roman", serif">Boards</p>
+    </div>
+
+
+    <!-- this is the search section -->
+    <form>
+        <!-- <input type="text" name="search" placeholder="Search" > -->
+        <input type="search" name='' placeholder="Search.." value=''>
+    </form>
+
+    <div class="mouse right three" style="height:32px;width:32px">
+        <i class="fa fa-user-circle mouse" aria-hidden="true" style="border-radius:5px;padding:4px 3px;"></i>
+    </div>
+    <div class="mouse right three" style="height:32px;width:32px">
+        <i class="fa fa-bell mouse" aria-hidden="true" style="border-radius:5px;padding:4px 3px;"></i>
+    </div>
+    <div class="mouse right three" style="height:32px;width:32px">
+        <i class="fa fa-info-circle mouse" aria-hidden="true" style="border-radius:5px;padding:4px 3px;"></i>
+    </div>
+    <div class="mouse right three" style="height:32px;width:32px">
+        <i class="fa fa-plus-square-o mouse" aria-hidden="true" style="border-radius:5px;padding:4px 3px;"></i>
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="left over" style="height:32px;">
+        <p style="font: normal 15px 900 " time new roman" serif;>Asal front end training</p> <i
+            class="fa fa-star-o mouse three new" aria-hidden="true"
+            style="float:right;border-radius:5px;padding:6px"></i>
+    </div>
+
+    <div class="left over">
+        <p style="font: normal 15px normal " time new roman", serif;>Private Team</p>
+    </div>
+
+    <div class=" mouse left three" style="height:32px;width:120.68;border-radius: 3px;">
+        <i class="fa fa-users" aria-hidden="true" style="float:left;padding:4px 1px"></i>
+        <p style="font: normal 15px normal " time new roman", serif;>Team visible</p>
+    </div>
+
+    <div class="left" style="border-right:none;">
+        <i class="fa fa-user-circle cross" aria-hidden="true"
+            style="font-size:25px;position:absolute;z-index:1;left:475px;top:40px"></i>
+        <i class="fa fa-user-circle cross" aria-hidden="true"
+            style="font-size:25px;position: absolute;left:495px;top:40px;z-index:2;float: left;"></i>
+        <p class="three mouse"
+            style="position:absolute;left:540px;top:50px;padding:7px;margin:5px;font: normal 15px bolder;border-radius: 3px; "
+            time new roman" serif;>Invite</p>
+    </div>
+
+    <div class="right three mouse">
+        <p style="padding-bottom:5px;font: normal 14px normal " time new roman" serif;">...Show Menu</p>
+    </div>
+
+    <div class="right three mouse" style="height:34.8px">
+        <i class="fa fa-coffee left mouse" aria-hidden="true" style="padding:5px 2px"></i>
+        <p style="padding-bottom:5px;font: normal 14px normal " time new roman" ,serif;>Butler</p>
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="right three mouse" style="border-right:none;width:264;height:32">
+        <i class="fa fa-plus left" aria-hidden="true" style="padding:5px 2px"></i>
+        <p class="left" style="padding-bottom:5px;font: normal 14px normal " time new roman" serif;>Add Another List</p>
+    </div>
+    <!-- Backlog div:  -->
+    <div class="left list" style="border-right:none;">
+        <form>
+            <input type="text" name="todo-list" value="Backlog"
+                style="width:190px;height:30px;border-radius:2px;border:none;background-color:rgba(230, 230, 230,0.1);">
+            <i class="fa fa-ellipsis-h template right " aria-hidden="true" style="color:black;font-size:15px;"></i>
+
+            <textarea id="todo" name="To-Do" placeholder=""
+                style="width:220px;max-width:220px;height:40px;border-radius:5px;min-height: 40px;">
+             </textarea>
+
+            <div class="left card">
+                <i class="fa fa-plus" aria-hidden="true" style="float:left;color:#ccc;padding:2px"></i>
+                <label for="cards" style="float:left;color:#ccc;position:relative;margin-top:0px;font-size:20px;">Add
+                    another card:</label>
+            </div>
+            </i>
+            <i class="fa fa-tablet right template " aria-hidden="true" style="color:#ccc;font-size:20px"> </i>
+        </form>
+    </div>
+    <!-- To-Do List: -->
+    <div class="left list" style="border-right:none;">
+        <form>
+            <input type="text" name="todo-list" value="TO DO"
+                style="width:190px;height:30px;border-radius:2px;border:none;background-color:rgba(230, 230, 230,0.1);">
+
+            <i class="fa fa-ellipsis-h template right " aria-hidden="true" style="color:black;font-size:15px;"></i>
+            <textarea id="todo" name="To-Do" placeholder=""
+                style="width:220px;max-width:220px;height:40px;border-radius:5px;min-height: 40px;">
+
+                         </textarea>
+            <div class="left card">
+                <i class="fa fa-plus" aria-hidden="true" style="float:left;color:#ccc;padding:2px"></i>
+                <label for="cards" style="float:left;color:#ccc;position:relative;margin-top:3px;font-size:20px;">Add
+                    another card:</label>
+            </div>
+            </i>
+            <i class="fa fa-tablet right template " aria-hidden="true" style="color:#ccc;font-size:20px"> </i>
+        </form>
+    </div>
+    <!-- Doing List: -->
+    <div class="left list" style="border-right:none;padding:6px">
+        <form>
+            <input type="text" name="doing-list" value="DOING"
+                style="width:190px;height:30px;border-radius:2px;border:none;background-color:rgba(230, 230, 230,0.1);">
+
+            <i class="fa fa-ellipsis-h template right " aria-hidden="true" style="color:black;font-size:15px;"></i>
+            <textarea id="todo" name="To-Do" placeholder=""
+                style="width:220px;max-width:220px;height:40px;border-radius:5px;min-height: 40px;">
+                         </textarea>
+            <div class="left card">
+                <i class="fa fa-plus" aria-hidden="true" style="float:left;color:#ccc;padding:2px"></i>
+                <label for="cards" style="float:left;color:#ccc;position:relative;margin-top:3px;font-size:20px;">Add
+                    another card:</label>
+            </div>
+            </i>
+            <i class="fa fa-tablet right template " aria-hidden="true" style="color:#ccc;font-size:20px"> </i>
+        </form>
+    </div>
+    <!-- Finshed:-->
+    <div class="left list" style="border-right:none">
+        <form>
+            <input type="text" name="finished-list" value="Finished"
+                style="width:190px;height:30px;border-radius:2px;border:none;background-color:rgba(230, 230, 230,0.1);">
+
+
+            <i class="fa fa-ellipsis-h template right " aria-hidden="true" style="color:black;font-size:15px;"></i>
+            <textarea id="todo" name="To-Do" placeholder=""
+                style="width:220px;max-width:220px;height:40px;border-radius:5px;min-height: 40px;">
+
+                         </textarea>
+            <div class="left card">
+                <i class="fa fa-plus" aria-hidden="true" style="float:left;color:#ccc;padding:2px"></i>
+                <label for="cards" style="float:left;color:#ccc;position:relative;margin-top:3px;font-size:20px;">Add
+                    another card:</label>
+            </div>
+            </i>
+            <i class="fa fa-tablet right template " aria-hidden="true" style="color:#ccc;font-size:20px"> </i>
+        </form>
+    </div>
+</body>
+
+</html>
